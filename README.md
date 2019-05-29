@@ -28,7 +28,7 @@ In `**next_page_id**` we divide the url in such a way that its first part contai
  ## Execution
  To run this project execute the following command
             
-      `scrapy crawl flipkart_scraper -o flipkart.json` 
+      scrapy crawl flipkart_scraper -o flipkart.json 
 It will returns a `JSON` file of name `flipkart` in the flipkart_scraper folder and the json file contains the scraped data.
 
 ## Sample Data
