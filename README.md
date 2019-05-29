@@ -19,11 +19,11 @@ In initial, it scrape mobile phones details of 5 pages from Flipkart but you can
        1.Open the `/flipkart_scraper/spiders/flipkart_scraper.py`
        2.Goto line 42 and change the value of `page number` to scrape more pages.
 
-In the end of the url you will find `**page=1**` and this indicates that this is the url of first page,In order to change the url and scrape different website you should take care of this because a website have different pages which are of different page numbers.You can change it in line `13` and `41`
+In the end of the url you will find `page=1` and this indicates that this is the url of first page,In order to change the url and scrape different website you should take care of this because a website have different pages which are of different page numbers.You can change it in line `13` and `41`
 
-At line `41` where we declare `**next_page_id**` where we append the `**page_number**`.
+At line `41` where we declare `next_page_id` where we append the `page_number`.
 
-In `**next_page_id**` we divide the url in such a way that its first part contains the url without `**page_number**` and second part contain the page number upto which we want to go.
+In `next_page_id` we divide the url in such a way that its first part contains the url without `page_number` and second part contain the page number upto which we want to go.
     
  ## Execution
  To run this project execute the following command
