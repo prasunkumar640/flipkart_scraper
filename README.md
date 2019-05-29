@@ -16,8 +16,8 @@ pip install scrapy
 
 ## Usage
 In initial, it scrape mobile phones details of 5 pages from Flipkart but you can also change it to scrape more.
-       1.Open the `/flipkart_scraper/spiders/flipkart_scraper.py`
-       2.Goto line 42 and change the value of `page number` to scrape more pages.
+      - 1.Open the `/flipkart_scraper/spiders/flipkart_scraper.py`
+      - 2.Goto line 42 and change the value of `page number` to scrape more pages.
 
 In the end of the url you will find `page=1` and this indicates that this is the url of first page,In order to change the url and scrape different website you should take care of this because a website have different pages which are of different page numbers.You can change it in line `13` and `41`
 
