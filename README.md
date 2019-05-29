@@ -34,4 +34,4 @@ It will returns a `JSON` file of name `flipkart` in the flipkart_scraper folder 
 ## Sample Data
 The sample `JSON` file is attached in the data folder
 
-
+**Ignore \u20b9 in the mob_price because it's just stand for Rupee sign**
